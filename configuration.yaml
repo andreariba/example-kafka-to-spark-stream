@@ -1,0 +1,5 @@
+SCHEMA_REGISTRY_URL: "http://kafka-schema-registry:8081"
+KAFKA_BOOTSTRAP_SERVERS: "kafka:9092"
+KAFKA_TOPIC: "sensor_reads_topic"
+JSON_SCHEMA: "message_schema.json"
+SENSOR_LIST: ["S01","S02","S03","S04","S05"]

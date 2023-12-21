@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Sensor Read",
+    "description": "Read value from a sensor",
+    "type": "object",
+    "properties": {
+        "sensor_id": {
+            "description": "unique identifier",
+            "type": "string"
+        },
+        "value": {
+            "description": "sensor value",
+            "type": "number"
+        }
+    },
+    "required": [ "sensor_id", "value" ]
+}
