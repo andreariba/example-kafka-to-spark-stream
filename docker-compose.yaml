@@ -29,7 +29,7 @@ services:
   spark-jupyter:
     image: jupyter/all-spark-notebook
     ports:
-      - '8880:8888'
+      - '8888:8888'
       - '4040:4040'
       - '4041:4041'
     volumes:
